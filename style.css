@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.banner {
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0;
+
+
+}
+
+.container {
+    width: 900px;
+    margin: auto;
+}
+
+.banner h1 {
+    color: white;
+}
+
+.banner p {
+    color: orange;
+    font-size: 19px;
+}
+
+.btn-primary {
+    display: inline-block;
+    background-color: #ff8c00;
+    padding: 16px 36px;
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Lato', sans-serif;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 200px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgb(230 230 230);
+    text-align: center;
+    padding: 10px;
+    border: 1px solid rgb(230,230,230);
+}
+
+.card p {
+    opacity: .8;
+}
+
+.footer {
+    text-align: center;
+    padding: 60px;
+    background-color: #1e1d1d;
+}
+
+.footer a {
+    font-size: 30px;
+    color: #ff9000;
+}
+
+.fa-brands, .fab {
+    font-family: "Font Awesome 6 Brands";
+    font-weight: 400;
+}
+
+.footer p {
+    color: #ff9000;
+}
+
+
+
+
+@media (max-width: 900px) {
+    .container {
+        width: 500px;
+    }
+    .card {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 300px;
+    }
+    .cards {
+        justify-content: space-around;
+    }
+}
